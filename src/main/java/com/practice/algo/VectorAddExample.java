@@ -1,11 +1,9 @@
 package com.practice.algo;
 
-import jdk.incubator.vector.FloatVector;
-import jdk.incubator.vector.VectorSpecies;
 
 public class VectorAddExample {
 
-    static final VectorSpecies<Float> SPECIES = FloatVector.SPECIES_PREFERRED;
+  /**  static final VectorSpecies<Float> SPECIES = FloatVector.SPECIES_PREFERRED;
 
     public static void main(String[] args) {
 
@@ -34,5 +32,5 @@ public class VectorAddExample {
         for (float v : c) {
             System.out.println(v);
         }
-    }
+    }**/
 }
